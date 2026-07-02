@@ -42,7 +42,7 @@ def mark_done():
             print("Invalid task number")
     main()
 #remove task
-def remove_all_task():
+def remove_all_tasks():
     if Tasks:
         Tasks.clear()
         print("all tasks are removed")
@@ -87,7 +87,7 @@ def main():
     elif(x=="3"):
         mark_done()
     elif(x=="4"):
-        remove_all_task()
+        remove_all_tasks()
     elif(x=="5"):
         remove_completed_tasks()
     elif(x=="6"):
